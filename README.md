@@ -1,7 +1,23 @@
-# Smiley's Auto — unofficial concept site
+# Smiley's Auto: unofficial concept site
 
-A student design concept for **Smiley's Auto** (1921 N Main St, Altus, OK). Static HTML/CSS/vanilla JS, no build step, original SVG/CSS artwork.
+A student design project for an auto repair shop in Altus, Oklahoma. **Not made by or affiliated with Smiley's Auto.** Business details come from public listings and the shop's own website and may be out of date; call the shop to confirm.
 
-**This is not the business's real website and is not affiliated with Smiley's Auto.** The official site is https://smileysservicecenter.com/.
+## Design
 
-Scroll-linked effects: car drives across the hero as you scroll, sliding headline, parallax hills/wind turbines/poles, scroll-speed speedometer, cards sliding in from left and right, a pinned horizontal "three T's" section, and drifting marquee bands. Respects `prefers-reduced-motion`.
+Dark graphite palette with a single deep-red accent, a clean grid, and a strong type hierarchy (Barlow Condensed + Inter). Original line-art icons, and one stock photo (generic, not the shop).
+
+Sections: sticky header with a Call button, hero, services (8), why us (Trust / Talent / Time + amenities), reviews, hours + map, contact, footer.
+
+## Motion (all restrained)
+
+- Fade/slide-in as sections enter the viewport
+- Light parallax on the hero photo
+- One horizontal reveal: a red line draws across the Trust / Talent / Time row as you scroll, bringing each column in from the left
+- Thin scroll-progress hairline under the header
+- `prefers-reduced-motion` gives a fully static layout
+
+## Credits
+
+Hero photo: "A white car on a lift in a garage" by Mathias Reding on [Unsplash](https://unsplash.com/photos/a-white-car-on-a-lift-in-a-garage-itJ8E4_bDW0), free under the [Unsplash License](https://unsplash.com/license). Resized and darkened; it does not depict this shop.
+
+Plain HTML/CSS/JS, no build step. The page carries `noindex`.
