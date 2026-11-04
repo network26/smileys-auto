@@ -1,23 +1,18 @@
-# Smiley's Auto: unofficial concept site
+# Smiley's Auto: unofficial concept site (v3, blueprint)
 
-A student design project for an auto repair shop in Altus, Oklahoma. **Not made by or affiliated with Smiley's Auto.** Business details come from public listings and the shop's own website and may be out of date; call the shop to confirm.
+A student design project for an auto repair shop in Altus, Oklahoma. **Not made by or affiliated with Smiley's Auto.** Business details come from public listings and the shop's own website and may be out of date; call the shop to confirm. The real site is <https://smileysservicecenter.com/>.
 
 ## Design
 
-Dark graphite palette with a single deep-red accent, a clean grid, and a strong type hierarchy (Barlow Condensed + Inter). Original line-art icons, and one stock photo (generic, not the shop).
+A technical-drawing look: navy blueprint grid, fine cyan line work, dimension lines, callouts and part numbers, with one amber accent. Brand is the plain wordmark "SMILEY'S AUTO". No photos and no logo mark; every drawing is original SVG line art.
 
-Sections: sticky header with a Call button, hero, services (8), why us (Trust / Talent / Time + amenities), reviews, hours + map, contact, footer.
+## Motion
 
-## Motion (all restrained)
+- **Exploded view:** a pinned, scroll-scrubbed exploded car (body shell, cabin, door, hood, wheels, brakes, suspension, engine, transmission, exhaust, battery, A/C, oil filter). Parts travel along leader lines and reassemble on scroll back; each callout is tied to a service. Simplified vertical stack on mobile.
+- Service rows slide in from alternating sides and slide out as you leave; each part diagram draws itself (stroke-dashoffset).
+- Counters (4.9★, 300+ reviews), cards sliding in, section exit transitions, scroll-progress hairline.
+- `prefers-reduced-motion` and no-JS/no-CDN give a static page (exploded view shown fully exploded).
 
-- Fade/slide-in as sections enter the viewport
-- Light parallax on the hero photo
-- One horizontal reveal: a red line draws across the Trust / Talent / Time row as you scroll, bringing each column in from the left
-- Thin scroll-progress hairline under the header
-- `prefers-reduced-motion` gives a fully static layout
+## Tech
 
-## Credits
-
-Hero photo: "A white car on a lift in a garage" by Mathias Reding on [Unsplash](https://unsplash.com/photos/a-white-car-on-a-lift-in-a-garage-itJ8E4_bDW0), free under the [Unsplash License](https://unsplash.com/license). Resized and darkened; it does not depict this shop.
-
-Plain HTML/CSS/JS, no build step. The page carries `noindex`.
+Plain HTML/CSS/JS, no build step. GSAP 3 + ScrollTrigger from jsDelivr (free standard license). The page carries `noindex`.
