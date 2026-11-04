@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Smiley's Auto · Altus, OK — unofficial concept site</title>
+<meta name="description" content="Unofficial concept website for Smiley's Auto, an auto repair shop at 1921 N Main St, Altus, Oklahoma. Student design project, not affiliated with the business.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b0d12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ffd21f' stroke='%23111' stroke-width='4'/%3E%3Ccircle cx='22' cy='25' r='4' fill='%23111'/%3E%3Ccircle cx='42' cy='25' r='4' fill='%23111'/%3E%3Cpath d='M16 38q16 18 32 0' fill='none' stroke='%23111' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#services">Skip to content</a>
+
+<!-- progress road + mini car -->
+<div class="progress" aria-hidden="true"><div class="progress-fill" id="pfill"></div><div class="progress-car" id="pcar"></div></div>
+
+<nav class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="Smiley's Auto home">
+    <svg viewBox="0 0 64 64" width="34" height="34" aria-hidden="true"><circle cx="32" cy="32" r="29" fill="#ffd21f" stroke="#111" stroke-width="4"/><circle cx="22" cy="25" r="4" fill="#111"/><circle cx="42" cy="25" r="4" fill="#111"/><path d="M16 38q16 18 32 0" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/></svg>
+    <span>Smiley's <b>Auto</b></span>
+  </a>
+  <div class="nav-links">
+    <a href="#services">Services</a><a href="#why">Why us</a><a href="#reviews">Reviews</a><a href="#location">Location</a><a href="#hours">Hours</a><a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-call small" href="tel:+15804823239"><span aria-hidden="true">📞</span> <span class="call-txt">(580) 482-3239</span></a>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-stick" id="heroStick">
+    <div class="sky"></div>
+    <div class="stars" aria-hidden="true"></div>
+    <div class="sun" id="sun" aria-hidden="true">
+      <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="96" fill="#ffd21f"/><circle cx="68" cy="82" r="11" fill="#2a1233"/><circle cx="132" cy="82" r="11" fill="#2a1233"/><path d="M52 116q48 56 96 0" fill="none" stroke="#2a1233" stroke-width="12" stroke-linecap="round"/></svg>
+    </div>
+    <div class="hills far" id="hillsFar" aria-hidden="true">
+      <svg viewBox="0 0 1200 200" preserveAspectRatio="none"><path d="M0 130 C120 80 220 110 340 100 C470 90 560 60 700 90 C830 118 930 70 1060 92 C1130 104 1170 120 1200 112 L1200 200 L0 200Z" fill="#3a1a4f"/></svg>
+      <div class="turbine t1"><i></i><svg viewBox="-50 -50 100 100" class="blades"><g id="b1"><path d="M0 0 L-3 -46 L3 -46Z M0 0 L40 23 L37 28Z M0 0 L-40 23 L-37 28Z" fill="#e9dff5"/></g></svg></div>
+      <div class="turbine t2"><i></i><svg viewBox="-50 -50 100 100" class="blades"><g id="b2"><path d="M0 0 L-3 -46 L3 -46Z M0 0 L40 23 L37 28Z M0 0 L-40 23 L-37 28Z" fill="#e9dff5"/></g></svg></div>
+      <div class="turbine t3"><i></i><svg viewBox="-50 -50 100 100" class="blades"><g id="b3"><path d="M0 0 L-3 -46 L3 -46Z M0 0 L40 23 L37 28Z M0 0 L-40 23 L-37 28Z" fill="#e9dff5"/></g></svg></div>
+    </div>
+    <div class="hills near" id="hillsNear" aria-hidden="true">
+      <svg viewBox="0 0 1200 200" preserveAspectRatio="none"><path d="M0 120 C150 70 300 140 460 110 C620 80 760 140 920 104 C1040 78 1130 100 1200 90 L1200 200 L0 200Z" fill="#1d0f2c"/></svg>
+    </div>
+    <div class="poles" id="poles" aria-hidden="true"></div>
+    <div class="road" aria-hidden="true"><div class="dash" id="dash"></div></div>
+    <div class="hero-car" id="heroCar" aria-hidden="true"></div>
+
+    <div class="hero-copy" id="heroCopy">
+      <p class="eyebrow">Auto repair · Altus, Oklahoma</p>
+      <h1><span class="h1a" id="h1a">Smiley's</span><span class="h1b" id="h1b">Auto</span></h1>
+      <p class="lead">Honest car care on N Main St. Oil changes, brakes, tires, alignment, exhaust and a whole lot more.</p>
+      <div class="cta">
+        <a class="btn btn-call" href="tel:+15804823239"><span aria-hidden="true">📞</span> Call (580) 482-3239</a>
+        <a class="btn btn-ghost" href="#services">See services</a>
+      </div>
+    </div>
+    <div class="scrollhint" id="hint" aria-hidden="true"><span>Scroll to drive</span><i></i></div>
+  </div>
+</header>
+
+<!-- ============ MARQUEE BANDS ============ -->
+<div class="bands" aria-hidden="true">
+  <div class="band b-red"><div class="band-in" data-hx="-0.55"><span>BRAKES ★ ALIGNMENT ★ OIL CHANGES ★ TIRES ★ EXHAUST ★ A/C ★ BRAKES ★ ALIGNMENT ★ OIL CHANGES ★ TIRES ★ EXHAUST ★ A/C ★ </span></div></div>
+  <div class="band b-yel"><div class="band-in" data-hx="0.55"><span>CHECK ENGINE LIGHT ★ BELTS &amp; HOSES ★ DIAGNOSTICS ★ SUSPENSION ★ TRANSMISSION ★ CHECK ENGINE LIGHT ★ BELTS &amp; HOSES ★ DIAGNOSTICS ★ SUSPENSION ★ </span></div></div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="sec services" id="services">
+  <div class="bigword" data-hx="0.35" aria-hidden="true">SERVICE</div>
+  <div class="wrap">
+    <div class="head" data-slide="left"><p class="kicker">What we fix</p><h2>Under the hood,<br><em>under one roof.</em></h2>
+    <p class="sub">A full range of repair and maintenance, straight from the shop's own service list. Don't see yours? Just ask.</p></div>
+    <ul class="grid">
+      <li data-slide="left" data-d="0"><article class="card"><svg class="ico" data-rot="0.25" viewBox="0 0 24 24"><path d="M12 3C12 3 5 11 5 15a7 7 0 0 0 14 0c0-4-7-12-7-12z"/></svg><h3>Maintenance &amp; oil changes</h3><ul><li>Factory scheduled maintenance</li><li>30k / 60k / 90k / 120k services</li><li>Tune-ups, filters, fluids</li><li>Safety &amp; emissions inspections</li></ul></article></li>
+      <li data-slide="right" data-d="0.05"><article class="card"><svg class="ico" data-rot="0.45" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><circle cx="12" cy="6.2" r=".9"/><circle cx="12" cy="17.8" r=".9"/><circle cx="6.2" cy="12" r=".9"/><circle cx="17.8" cy="12" r=".9"/></svg><h3>Brakes</h3><ul><li>Brake service &amp; repair</li><li>Shocks &amp; struts</li><li>Chassis, suspension &amp; steering</li></ul></article></li>
+      <li data-slide="left" data-d="0.08"><article class="card"><svg class="ico" data-rot="0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/></svg><h3>Tires &amp; alignment</h3><ul><li>Tires &amp; tire repair</li><li>Alignment service</li><li>Struts, shocks &amp; suspension</li></ul></article></li>
+      <li data-slide="right" data-d="0.12"><article class="card"><svg class="ico" data-rot="-0.2" viewBox="0 0 24 24"><rect x="2.5" y="9" width="14" height="6" rx="2"/><path d="M16.5 12h3"/><circle cx="21" cy="8" r="1"/><circle cx="19" cy="5" r=".8"/></svg><h3>Exhaust &amp; mufflers</h3><ul><li>Exhaust repair &amp; replacement</li><li>Muffler &amp; tailpipe work</li><li>Custom exhaust</li></ul></article></li>
+      <li data-slide="left" data-d="0.15"><article class="card"><svg class="ico" data-rot="0.3" viewBox="0 0 24 24"><path d="M12 2v20M3.3 7l17.4 10M20.7 7L3.3 17M9 3.5l3 2.5 3-2.5M9 20.5L12 18l3 2.5"/></svg><h3>Heating &amp; A/C</h3><ul><li>Heating &amp; cooling diagnostics</li><li>A/C repair &amp; service</li><li>Belts, compressors &amp; more</li></ul></article></li>
+      <li data-slide="right" data-d="0.18"><article class="card"><svg class="ico" data-rot="0" viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg><h3>Electrical</h3><ul><li>Electrical diagnostics &amp; repair</li><li>Lights &amp; bulb replacement</li><li>Wipers, power steering &amp; locks</li></ul></article></li>
+      <li data-slide="left" data-d="0.2"><article class="card"><svg class="ico" data-rot="0.1" viewBox="0 0 24 24"><path d="M3 10h3l1-2h7l1 2h3v7h-3l-1 2H8l-1-2H3zM9 8V5h6v3"/></svg><h3>Engine &amp; check engine light</h3><ul><li>Engine repair &amp; performance checks</li><li>Cooling system &amp; radiators</li><li>Drivability diagnostics</li></ul></article></li>
+      <li data-slide="right" data-d="0.22"><article class="card"><svg class="ico" data-rot="0.6" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg><h3>Transmission</h3><ul><li>Repair &amp; overhaul</li><li>Maintenance &amp; service</li></ul></article></li>
+    </ul>
+    <p class="fine" data-slide="left">Service list from the shop's own website, smileysservicecenter.com.</p>
+  </div>
+</section>
+
+<div class="tracks" data-track aria-hidden="true"></div>
+
+<!-- ============ WHY (pinned horizontal) ============ -->
+<section class="pin" id="why" data-pin>
+  <div class="pin-stick">
+    <div class="pin-title"><p class="kicker">Why drivers pick Smiley's</p><h2>Three things. <em>Keep scrolling →</em></h2></div>
+    <div class="pin-track" id="pinTrack">
+      <article class="panel"><div class="tbig" aria-hidden="true">T</div><h3><span>01</span> Trust</h3><p>Loyalty is earned one repair at a time. The shop's goal is simple: do right by you every day so you keep coming back.</p></article>
+      <article class="panel"><div class="tbig" aria-hidden="true">T</div><h3><span>02</span> Talent</h3><p>Experienced, well-trained technicians who know their way around everything from a routine oil change to a tricky engine problem.</p></article>
+      <article class="panel"><div class="tbig" aria-hidden="true">T</div><h3><span>03</span> Time</h3><p>They take the time to listen, explain the work, and get your car done right, without making you feel rushed.</p></article>
+      <article class="panel amen"><h3>While you wait</h3><ul><li><b>Free</b> Wi-Fi</li><li><b>Courtesy</b> shuttle</li><li><b>Coffee</b> &amp; snacks</li></ul><p class="fine">Perks listed on the shop's website.</p></article>
+    </div>
+    <div class="pin-road" aria-hidden="true"><div class="pin-dash" id="pinDash"></div><div class="pin-car" id="pinCar"></div></div>
+  </div>
+</section>
+
+<div class="tracks flip" data-track aria-hidden="true"></div>
+
+<!-- ============ REVIEWS ============ -->
+<section class="sec reviews" id="reviews">
+  <div class="bigword" data-hx="-0.35" aria-hidden="true">4.9★</div>
+  <div class="wrap two">
+    <div class="gauge" data-slide="left">
+      <svg viewBox="0 0 200 200" role="img" aria-label="4.9 out of 5 stars on Google">
+        <circle cx="100" cy="100" r="86" class="g-bg"/>
+        <circle cx="100" cy="100" r="86" class="g-fg" id="ring" transform="rotate(-90 100 100)"/>
+        <text x="100" y="104" text-anchor="middle" class="g-num">4.9</text>
+        <text x="100" y="132" text-anchor="middle" class="g-sub">OUT OF 5</text>
+      </svg>
+    </div>
+    <div data-slide="right">
+      <p class="kicker">Neighbors talk</p>
+      <h2>Rated <em>4.9★</em> on Google</h2>
+      <div class="stars-row" aria-hidden="true">★★★★★</div>
+      <p class="sub">Public listings show a 4.9-star Google rating from 300+ reviews (the exact count changes by the day). Don't take our word for it. Read what real customers are saying.</p>
+      <div class="cta">
+        <a class="btn btn-call" href="https://www.google.com/maps/search/?api=1&query=Smiley%27s%20Auto%201921%20N%20Main%20St%20Altus%20OK" target="_blank" rel="noopener">Read Google reviews</a>
+        <a class="btn btn-ghost" href="https://www.facebook.com/101035532797829" target="_blank" rel="noopener">Facebook page</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION + HOURS ============ -->
+<section class="sec location" id="location">
+  <div class="wrap two">
+    <div class="mapbox" data-slide="left">
+      <iframe title="Map showing Smiley's Auto at 1921 N Main St, Altus, OK" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=1921+N+Main+St,+Altus,+OK+73521&amp;output=embed"></iframe>
+    </div>
+    <div data-slide="right">
+      <p class="kicker">Find us</p>
+      <h2>On <em>N Main St</em> in Altus</h2>
+      <address>Smiley's Auto<br>1921 N Main St<br>Altus, OK 73521</address>
+      <div class="cta">
+        <a class="btn btn-call" href="https://www.google.com/maps/dir/?api=1&destination=1921+N+Main+St,+Altus,+OK+73521" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn btn-ghost" href="tel:+15804823239">Call (580) 482-3239</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec hours" id="hours">
+  <div class="wrap two rev">
+    <div data-slide="left">
+      <p class="kicker">Shop hours</p>
+      <h2>Open <em>weekdays.</em></h2>
+      <p class="status" id="status" aria-live="polite"></p>
+      <p class="fine">Hours from the shop's own website (Central Time). Some online directories list slightly different hours, so call to confirm.</p>
+    </div>
+    <ul class="hours-list" data-slide="right" id="hoursList">
+      <li data-day="1"><span>Monday</span><b>8:00 AM – 6:00 PM</b></li>
+      <li data-day="2"><span>Tuesday</span><b>8:00 AM – 6:00 PM</b></li>
+      <li data-day="3"><span>Wednesday</span><b>8:00 AM – 6:00 PM</b></li>
+      <li data-day="4"><span>Thursday</span><b>8:00 AM – 6:00 PM</b></li>
+      <li data-day="5"><span>Friday</span><b>8:00 AM – 6:00 PM</b></li>
+      <li data-day="6" class="closed"><span>Saturday</span><b>Closed</b></li>
+      <li data-day="0" class="closed"><span>Sunday</span><b>Closed</b></li>
+    </ul>
+  </div>
+</section>
+
+<div class="tracks" data-track aria-hidden="true"></div>
+
+<!-- ============ CONTACT ============ -->
+<section class="sec contact" id="contact">
+  <div class="wrap center">
+    <p class="kicker" data-slide="left">Ready to roll?</p>
+    <h2 data-slide="right">Give us a <em>call.</em></h2>
+    <a class="mega" href="tel:+15804823239" data-slide="left">📞 (580) 482-3239</a>
+    <div class="cta" data-slide="right">
+      <a class="btn btn-ghost" href="https://smileysservicecenter.com/appointments/" target="_blank" rel="noopener">Request an appointment</a>
+      <a class="btn btn-ghost" href="https://smileysservicecenter.com/" target="_blank" rel="noopener">Official website</a>
+    </div>
+  </div>
+  <div class="foot-road" aria-hidden="true"><div class="foot-dash" id="footDash"></div><div class="foot-car" id="footCar"></div></div>
+</section>
+
+<footer class="footer">
+  <p><b>Unofficial concept site.</b> This is a student design project, not made by or affiliated with Smiley's Auto. Business details were gathered from public listings and the shop's own website and may be out of date, so please call to confirm. Artwork is original.</p>
+</footer>
+
+<a class="fab-call" href="tel:+15804823239" aria-label="Call Smiley's Auto">📞 Call</a>
+
+<!-- speedometer -->
+<div class="tach" aria-hidden="true">
+  <svg viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="56" class="t-face"/>
+    <g id="ticks"></g>
+    <g id="needle"><line x1="60" y1="60" x2="60" y2="16" class="t-needle"/></g>
+    <circle cx="60" cy="60" r="6" class="t-hub"/>
+    <text x="60" y="90" text-anchor="middle" class="t-mph" id="mph">0</text>
+    <text x="60" y="102" text-anchor="middle" class="t-unit">MPH</text>
+  </svg>
+  <div class="tach-pct" id="pct">0% down the road</div>
+</div>
+
+<template id="car-tpl">
+<svg viewBox="0 0 540 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gBody" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff3b47"/><stop offset=".55" stop-color="#d4121f"/><stop offset="1" stop-color="#8f0a14"/></linearGradient>
+    <linearGradient id="gGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2d4766"/><stop offset=".5" stop-color="#16243a"/><stop offset="1" stop-color="#0d1624"/></linearGradient>
+    <linearGradient id="gBeam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff6c4" stop-opacity=".75"/><stop offset="1" stop-color="#fff6c4" stop-opacity="0"/></linearGradient>
+    <radialGradient id="gRim" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#8a93a6"/></radialGradient>
+  </defs>
+  <ellipse cx="270" cy="162" rx="250" ry="9" fill="#000" opacity=".45"/>
+  <polygon points="514,100 700,70 700,140" fill="url(#gBeam)" class="beam"/>
+  <path d="M20 130 L20 100 Q20 90 32 88 L110 84 Q136 80 160 62 Q186 42 232 40 L320 40 Q352 42 374 62 L394 82 L472 90 Q506 94 516 108 L520 124 Q520 129 513 130 L513 134 Q511 140 502 140 L32 140 Q20 140 20 130Z" fill="url(#gBody)" stroke="#5a0710" stroke-width="2"/>
+  <path d="M168 68 Q190 52 233 50 L258 50 L258 84 L152 84Z" fill="url(#gGlass)"/>
+  <path d="M268 50 L318 50 Q342 52 357 68 L372 84 L268 84Z" fill="url(#gGlass)"/>
+  <path d="M176 66 Q196 56 226 55" stroke="#fff" stroke-opacity=".35" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M24 98 L500 102" stroke="#fff" stroke-width="5" opacity=".92"/>
+  <path d="M24 106 L505 110" stroke="#ffd21f" stroke-width="2" opacity=".9"/>
+  <path d="M172 86 L170 134 M266 86 L268 134 M372 86 L376 134" stroke="#000" stroke-opacity=".35" stroke-width="2" fill="none"/>
+  <rect x="236" y="92" width="22" height="5" rx="2.5" fill="#e8ecf4"/>
+  <g transform="translate(219 118)"><circle r="14" fill="#ffd21f" stroke="#111" stroke-width="2"/><circle cx="-5" cy="-4" r="2" fill="#111"/><circle cx="5" cy="-4" r="2" fill="#111"/><path d="M-8 3 Q0 12 8 3" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="round"/></g>
+  <path d="M396 84 L470 92" stroke="#000" stroke-opacity=".3" stroke-width="2"/>
+  <rect x="20" y="98" width="7" height="16" rx="3" fill="#ff4a55" class="tail"/>
+  <path d="M508 100 Q518 102 518 110 Q518 114 512 114 L504 112Z" fill="#fff8d6"/>
+  <rect x="496" y="124" width="24" height="7" rx="3" fill="#cfd6e2"/>
+  <rect x="14" y="124" width="22" height="7" rx="3" fill="#cfd6e2"/>
+  <path d="M84 140 A40 40 0 1 1 160 140Z" fill="#06070a"/>
+  <path d="M372 140 A40 40 0 1 1 448 140Z" fill="#06070a"/>
+  <g>
+    <circle cx="122" cy="128" r="32" fill="#0d0d12" stroke="#000" stroke-width="2"/><circle cx="122" cy="128" r="26" fill="#1a1a22"/>
+    <g class="wheel" style="transform-origin:122px 128px"><circle cx="122" cy="128" r="20" fill="url(#gRim)"/><g stroke="#5b6475" stroke-width="3.2" stroke-linecap="round"><path d="M122 128V110M122 128L139 122M122 128L132 142M122 128L112 142M122 128L105 122"/></g><circle cx="122" cy="128" r="5" fill="#e5202e"/></g>
+  </g>
+  <g>
+    <circle cx="410" cy="128" r="32" fill="#0d0d12" stroke="#000" stroke-width="2"/><circle cx="410" cy="128" r="26" fill="#1a1a22"/>
+    <g class="wheel" style="transform-origin:410px 128px"><circle cx="410" cy="128" r="20" fill="url(#gRim)"/><g stroke="#5b6475" stroke-width="3.2" stroke-linecap="round"><path d="M410 128V110M410 128L427 122M410 128L420 142M410 128L400 142M410 128L393 122"/></g><circle cx="410" cy="128" r="5" fill="#e5202e"/></g>
+  </g>
+</svg>
+</template>
+
+<script src="main.js"></script>
+</body>
+</html>
