@@ -6,13 +6,16 @@
 <title>Smiley's Auto | Auto repair in Altus, Oklahoma (unofficial concept)</title>
 <meta name="description" content="Unofficial student concept site for Smiley's Auto, an auto repair shop at 1921 N Main St, Altus, Oklahoma. Call (580) 482-3239.">
 <meta name="robots" content="noindex">
-<script>document.documentElement.className='js';setTimeout(function(){if(!window.__ready)document.documentElement.className=''},5000)</script>
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script>(function(d){var r=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;if(!r){d.className='js';setTimeout(function(){if(!window.__ready)d.className=''},5000)}})(document.documentElement)</script>
 <meta name="theme-color" content="#0e0f11">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23c4161f'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-family='Arial Narrow,Arial' font-weight='700' font-size='42' fill='%23fff'%3ES%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20261104b">
+<link rel="stylesheet" href="css/site.v4.css">
 </head>
 <body>
 <a class="skip" href="#services">Skip to content</a>
@@ -21,7 +24,7 @@
 <header class="hdr" id="hdr">
   <div class="hdr-in">
     <a class="brand" href="#top" aria-label="Smiley's Auto, home">
-      <span class="mark" aria-hidden="true">S</span>
+      <svg class="mark" viewBox="0 0 34 34" width="34" height="34" aria-hidden="true" focusable="false"><rect width="34" height="34" rx="5" fill="#c4161f"/><path d="M23.2 11c-1.4-1.7-3.4-2.5-5.8-2.5-3.1 0-5.1 1.6-5.1 3.9 0 5.7 10.6 3 10.6 9.1 0 2.5-2.3 4.2-5.7 4.2-2.6 0-4.7-.9-6.2-2.7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span class="brand-t">Smiley's <b>Auto</b></span>
     </a>
     <nav class="nav" id="nav" aria-label="Main">
@@ -32,7 +35,7 @@
       <a href="#contact">Contact</a>
       <a class="nav-off" href="https://smileysservicecenter.com/" target="_blank" rel="noopener">Official site &#8599;</a>
     </nav>
-    <a class="btn btn-red btn-sm hdr-call" href="tel:+15804823239"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span>(580) 482-3239</span></a>
+    <a class="btn btn-red btn-sm hdr-call" href="tel:+15804823239"><svg class="pi" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span>(580) 482-3239</span></a>
     <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
   </div>
   <div class="prog" id="prog" aria-hidden="true"></div>
@@ -42,21 +45,21 @@
 <!-- ============ HERO ============ -->
 <section class="hero" id="hero">
   <div class="hero-media" id="heroMedia">
-    <img src="img/hero-1000.jpg?v=20261104b" srcset="img/hero-1000.jpg?v=20261104b 1000w, img/hero.jpg?v=20261104b 2000w" sizes="100vw" width="2000" height="1333" alt="Stock photo of a classic car raised on a lift in a garage" fetchpriority="high">
+    <img src="img/hero-v4-1000.jpg" srcset="img/hero-v4-1000.jpg 1000w, img/hero-v4-2000.jpg 2000w" sizes="100vw" width="2000" height="1333" alt="Stock photo of a classic car raised on a lift in a garage" fetchpriority="high">
   </div>
   <div class="hero-shade" aria-hidden="true"></div>
   <div class="wrap hero-in" id="heroCopy">
     <p class="eyebrow rv" style="--d:.05s">Auto repair &middot; Altus, Oklahoma</p>
-    <h1 class="rv" style="--d:.15s">Honest repair.<br><span>Done right.</span></h1>
+    <h1 class="mh" aria-label="Honest repair. Done right."><span class="w"><span>Honest</span></span> <span class="w"><span>repair.</span></span><br><span class="o"><span class="w"><span>Done</span></span> <span class="w"><span>right.</span></span></span></h1>
     <p class="lead rv" style="--d:.28s">Maintenance, brakes, tires, exhaust, A/C and engine diagnostics from a neighborhood shop on N Main Street.</p>
     <div class="cta rv" style="--d:.4s">
-      <a class="btn btn-red" href="tel:+15804823239"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call (580) 482-3239</a>
+      <a class="btn btn-red" href="tel:+15804823239"><svg class="pi" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call (580) 482-3239</a>
       <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=1921+N+Main+St,+Altus,+OK+73521" target="_blank" rel="noopener">Get directions</a>
     </div>
     <p class="hero-links rv" style="--d:.46s"><a href="https://smileysservicecenter.com/" target="_blank" rel="noopener">Official site &#8599;</a><a href="https://smileysservicecenter.com/appointments/" target="_blank" rel="noopener">Request an appointment &#8599;</a></p>
     <a class="badge rv" style="--d:.52s" href="#reviews" aria-label="4.9 stars on Google from over 300 reviews">
-      <span class="badge-n">4.9</span>
-      <span class="badge-s"><span class="stars" aria-hidden="true">★★★★★</span><span>Google rating &middot; 300+ reviews</span></span>
+      <span class="badge-n"><span class="count" data-to="4.9" data-dec="1">4.9</span></span>
+      <span class="badge-s"><span class="stars" aria-hidden="true">★★★★★</span> <span class="badge-t">Google rating &middot; <span class="count" data-to="300" data-suffix="+">300+</span> reviews</span></span>
     </a>
   </div>
   <div class="hero-strip">
@@ -69,59 +72,66 @@
   <p class="credit">Stock photo: <a href="https://unsplash.com/photos/a-white-car-on-a-lift-in-a-garage-itJ8E4_bDW0" target="_blank" rel="noopener">Mathias Reding / Unsplash</a>. Not Smiley's shop.</p>
 </section>
 
+<div class="mq" aria-hidden="true">
+  <div class="strip-row a"><div class="strip-track"><span>Maintenance</span><em></em><span>Brakes</span><em></em><span>Tires</span><em></em><span>Exhaust</span><em></em><span>Heating &amp; A/C</span><em></em><span>Electrical</span><em></em><span>Engine</span><em></em><span>Transmission</span><em></em><span>Maintenance</span><em></em><span>Brakes</span><em></em><span>Tires</span><em></em><span>Exhaust</span><em></em><span>Heating &amp; A/C</span><em></em><span>Electrical</span><em></em><span>Engine</span><em></em><span>Transmission</span><em></em></div></div>
+  <div class="strip-row b"><div class="strip-track"><span>Transmission</span><em></em><span>Engine</span><em></em><span>Electrical</span><em></em><span>Heating &amp; A/C</span><em></em><span>Exhaust</span><em></em><span>Tires</span><em></em><span>Brakes</span><em></em><span>Maintenance</span><em></em><span>Transmission</span><em></em><span>Engine</span><em></em><span>Electrical</span><em></em><span>Heating &amp; A/C</span><em></em><span>Exhaust</span><em></em><span>Tires</span><em></em><span>Brakes</span><em></em><span>Maintenance</span><em></em></div></div>
+</div>
+
+<div class="flow" id="flow">
+<div class="spine" aria-hidden="true"><i id="spineFill"></i></div>
 <!-- ============ SERVICES ============ -->
 <section class="sec services" id="services">
   <div class="wrap">
-    <header class="sec-head">
-      <p class="idx rv"><b>01</b><i></i>Services</p>
-      <h2 class="rv" style="--d:.08s">Full-service repair<br>and maintenance.</h2>
+    <header class="sec-head x">
+      <p class="idx rv"><b>01</b> <i></i> <span>Services</span></p>
+      <h2 class="mh"><span class="w"><span>Full-service</span></span> <span class="w"><span>repair</span></span><br><span class="w"><span>and</span></span> <span class="w"><span>maintenance.</span></span></h2>
       <p class="sub rv" style="--d:.16s">Straight from the shop's own service list. Don't see yours? Just ask.</p>
     </header>
     <ul class="grid" role="list">
-      <li class="rv" style="--d:0s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c3.2 4 6 7.1 6 10.2a6 6 0 0 1-12 0c0-3.1 2.8-6.2 6-10.2z"/><path d="M9 14.5a3 3 0 0 0 3 3"/></svg>
+      <li class="rv" style="--d:0s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path pathLength="1" d="M12 3.5c3.2 4 6 7.1 6 10.2a6 6 0 0 1-12 0c0-3.1 2.8-6.2 6-10.2z"/><path pathLength="1" d="M9 14.5a3 3 0 0 0 3 3"/></svg>
         <h3>Maintenance &amp; oil changes</h3>
         <ul><li>Factory scheduled maintenance</li><li>30k / 60k / 90k / 120k services</li><li>Tune-ups, filters &amp; fluids</li><li>Safety &amp; emissions inspections</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:.06s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.6"/><circle cx="12" cy="6.6" r=".8"/><circle cx="16.7" cy="9.3" r=".8"/><circle cx="16.7" cy="14.7" r=".8"/><circle cx="12" cy="17.4" r=".8"/><circle cx="7.3" cy="14.7" r=".8"/><circle cx="7.3" cy="9.3" r=".8"/></svg>
+      <li class="rv" style="--d:.06s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle pathLength="1" cx="12" cy="12" r="9"/><circle pathLength="1" cx="12" cy="12" r="2.6"/><circle pathLength="1" cx="12" cy="6.6" r=".8"/><circle pathLength="1" cx="16.7" cy="9.3" r=".8"/><circle pathLength="1" cx="16.7" cy="14.7" r=".8"/><circle pathLength="1" cx="12" cy="17.4" r=".8"/><circle pathLength="1" cx="7.3" cy="14.7" r=".8"/><circle pathLength="1" cx="7.3" cy="9.3" r=".8"/></svg>
         <h3>Brakes</h3>
         <ul><li>Brake service &amp; repair</li><li>Shocks &amp; struts</li><li>Chassis, suspension &amp; steering</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:.12s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.6"/><path d="M12 10.4V6M13.5 12.8l3.8 2.2M10.5 12.8L6.7 15"/></svg>
+      <li class="rv" style="--d:.12s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle pathLength="1" cx="12" cy="12" r="9.5"/><circle pathLength="1" cx="12" cy="12" r="6"/><circle pathLength="1" cx="12" cy="12" r="1.6"/><path pathLength="1" d="M12 10.4V6M13.5 12.8l3.8 2.2M10.5 12.8L6.7 15"/></svg>
         <h3>Tires &amp; alignment</h3>
         <ul><li>Tires &amp; tire repair</li><li>Alignment service</li><li>Struts, shocks &amp; suspension</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:.18s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="8" width="11" height="8" rx="4"/><path d="M2 12h3M16 12h3.5l2 -1.5M16 14h5"/><path d="M9 10.5v3M12 10.5v3"/></svg>
+      <li class="rv" style="--d:.18s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect pathLength="1" x="5" y="8" width="11" height="8" rx="4"/><path pathLength="1" d="M2 12h3M16 12h3.5l2 -1.5M16 14h5"/><path pathLength="1" d="M9 10.5v3M12 10.5v3"/></svg>
         <h3>Exhaust &amp; mufflers</h3>
         <ul><li>Exhaust repair &amp; replacement</li><li>Muffler &amp; tailpipe work</li><li>Custom exhaust</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:0s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5v19M3.8 7.3l16.4 9.4M20.2 7.3L3.8 16.7M9.5 4l2.5 2 2.5-2M9.5 20l2.5-2 2.5 2"/></svg>
+      <li class="rv" style="--d:0s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path pathLength="1" d="M12 2.5v19M3.8 7.3l16.4 9.4M20.2 7.3L3.8 16.7M9.5 4l2.5 2 2.5-2M9.5 20l2.5-2 2.5 2"/></svg>
         <h3>Heating &amp; A/C</h3>
         <ul><li>Heating &amp; cooling diagnostics</li><li>A/C repair &amp; service</li><li>Belts, compressors &amp; more</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:.06s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7.5" width="18" height="11" rx="1.5"/><path d="M6 5.5h3v2M15 5.5h3v2"/><path d="M7 13h3M8.5 11.5v3M14 13h3"/></svg>
+      <li class="rv" style="--d:.06s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect pathLength="1" x="3" y="7.5" width="18" height="11" rx="1.5"/><path pathLength="1" d="M6 5.5h3v2M15 5.5h3v2"/><path pathLength="1" d="M7 13h3M8.5 11.5v3M14 13h3"/></svg>
         <h3>Electrical</h3>
         <ul><li>Electrical diagnostics &amp; repair</li><li>Lights &amp; bulb replacement</li><li>Wipers, power steering &amp; locks</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:.12s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11h2V9h3V6.5h6V9h2l2 2h2v6h-2l-2 2H8l-2-2H3z"/><path d="M9 6.5V4.5h6v2M9 14h6"/></svg>
+      <li class="rv" style="--d:.12s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path pathLength="1" d="M3 11h2V9h3V6.5h6V9h2l2 2h2v6h-2l-2 2H8l-2-2H3z"/><path pathLength="1" d="M9 6.5V4.5h6v2M9 14h6"/></svg>
         <h3>Engine &amp; check engine light</h3>
         <ul><li>Engine repair &amp; performance checks</li><li>Cooling system &amp; radiators</li><li>Drivability diagnostics</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
       </article></li>
-      <li class="rv" style="--d:.18s"><article class="cell">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><circle cx="12" cy="12" r="7"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M18.7 5.3l-1.8 1.8M7.1 16.9l-1.8 1.8"/></svg>
+      <li class="rv" style="--d:.18s"><article class="cell x">
+        <svg class="ico" viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle pathLength="1" cx="12" cy="12" r="3.2"/><circle pathLength="1" cx="12" cy="12" r="7"/><path pathLength="1" d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M18.7 5.3l-1.8 1.8M7.1 16.9l-1.8 1.8"/></svg>
         <h3>Transmission</h3>
         <ul><li>Repair &amp; overhaul</li><li>Maintenance &amp; service</li></ul>
         <a class="more" href="https://smileysservicecenter.com/services/" target="_blank" rel="noopener">Learn more &#8599;</a>
@@ -134,12 +144,12 @@
 <!-- ============ WHY US ============ -->
 <section class="sec why" id="why">
   <div class="wrap">
-    <header class="sec-head">
-      <p class="idx rv"><b>02</b><i></i>Why Smiley's</p>
-      <h2 class="rv" style="--d:.08s">Trust. Talent. Time.</h2>
+    <header class="sec-head x">
+      <p class="idx rv"><b>02</b> <i></i> <span>Why Smiley's</span></p>
+      <h2 class="mh"><span class="w"><span>Trust.</span></span> <span class="w"><span>Talent.</span></span> <span class="w"><span>Time.</span></span></h2>
       <p class="sub rv" style="--d:.16s">Three things the shop says it builds every repair around.</p>
     </header>
-    <div class="tl" id="tl">
+    <div class="tl x" id="tl">
       <div class="tl-line" aria-hidden="true"><i id="tlFill"></i></div>
       <article class="tl-col"><span class="num" aria-hidden="true">01</span><h3>Trust</h3><p>Loyalty is earned one repair at a time. The shop's goal is simple: do right by you every day so you keep coming back.</p></article>
       <article class="tl-col"><span class="num" aria-hidden="true">02</span><h3>Talent</h3><p>Experienced, well-trained technicians who know their way around everything from a routine oil change to a tricky engine problem.</p></article>
@@ -148,9 +158,9 @@
     <div class="amen rv">
       <p class="amen-t">While you wait</p>
       <ul>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.6 16a5 5 0 0 1 6.8 0"/><circle cx="12" cy="19" r=".8"/></svg>Free Wi-Fi</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 16.5V8h11l4 4.2v4.3M2.5 16.5h15M13.5 8v4.2h4"/><circle cx="7" cy="17" r="1.8"/><circle cx="14.5" cy="17" r="1.8"/></svg>Courtesy shuttle</li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9h11v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM16 10.5h1.8a2 2 0 0 1 0 4H16M8 3.5v2M11 3.5v2M14 3.5v2"/></svg>Coffee &amp; snacks</li>
+        <li><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.6 16a5 5 0 0 1 6.8 0"/><circle cx="12" cy="19" r=".8"/></svg>Free Wi-Fi</li>
+        <li><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 16.5V8h11l4 4.2v4.3M2.5 16.5h15M13.5 8v4.2h4"/><circle cx="7" cy="17" r="1.8"/><circle cx="14.5" cy="17" r="1.8"/></svg>Courtesy shuttle</li>
+        <li><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 9h11v5a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM16 10.5h1.8a2 2 0 0 1 0 4H16M8 3.5v2M11 3.5v2M14 3.5v2"/></svg>Coffee &amp; snacks</li>
       </ul>
       <p class="fine">Perks listed on the shop's website.</p>
     </div>
@@ -160,14 +170,14 @@
 <!-- ============ REVIEWS ============ -->
 <section class="sec reviews" id="reviews">
   <div class="wrap">
-    <header class="sec-head">
-      <p class="idx rv"><b>03</b><i></i>Reviews</p>
-      <h2 class="rv" style="--d:.08s">Rated 4.9 on Google.</h2>
+    <header class="sec-head x">
+      <p class="idx rv"><b>03</b> <i></i> <span>Reviews</span></p>
+      <h2 class="mh"><span class="w"><span>Rated</span></span> <span class="w"><span>4.9</span></span> <span class="w"><span>on</span></span> <span class="w"><span>Google.</span></span></h2>
     </header>
     <div class="rev-panel rv">
       <div class="rev-score">
-        <span class="big" aria-label="4.9 out of 5">4.9</span>
-        <div><span class="stars" aria-hidden="true">★★★★★</span><span class="rev-n">300+ Google reviews</span></div>
+        <span class="big" aria-label="4.9 out of 5"><span class="count" data-to="4.9" data-dec="1">4.9</span></span>
+        <div><span class="stars" aria-hidden="true">★★★★★</span> <span class="rev-n"><span class="count" data-to="300" data-suffix="+">300+</span> Google reviews</span></div>
       </div>
       <div class="rev-copy">
         <p>Public listings show a 4.9-star Google rating from over 300 reviews, and the exact count changes by the day. Don't take our word for it. Read what real customers are saying.</p>
@@ -183,15 +193,15 @@
 <!-- ============ HOURS + LOCATION ============ -->
 <section class="sec visit" id="visit">
   <div class="wrap">
-    <header class="sec-head">
-      <p class="idx rv"><b>04</b><i></i>Hours &amp; location</p>
-      <h2 class="rv" style="--d:.08s">Find the shop.</h2>
+    <header class="sec-head x">
+      <p class="idx rv"><b>04</b> <i></i> <span>Hours &amp; location</span></p>
+      <h2 class="mh"><span class="w"><span>Find</span></span> <span class="w"><span>the</span></span> <span class="w"><span>shop.</span></span></h2>
     </header>
-    <div class="visit-grid">
-      <div class="mapbox rv">
+    <div class="visit-grid x">
+      <div class="mapbox">
         <iframe title="Map showing Smiley's Auto at 1921 N Main St, Altus, OK" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=1921+N+Main+St,+Altus,+OK+73521&amp;output=embed"></iframe>
       </div>
-      <div class="info rv" style="--d:.1s">
+      <div class="info">
         <h3>Smiley's Auto</h3>
         <address>1921 N Main St<br>Altus, OK 73521</address>
         <div class="cta">
@@ -218,9 +228,9 @@
 <!-- ============ CONTACT ============ -->
 <section class="sec contact" id="contact">
   <div class="wrap">
-    <p class="idx rv"><b>05</b><i></i>Contact</p>
-    <div class="contact-in">
-      <h2 class="rv" style="--d:.08s">Book a repair<br>or ask a question.</h2>
+    <p class="idx rv"><b>05</b> <i></i> <span>Contact</span></p>
+    <div class="contact-in x">
+      <h2 class="mh"><span class="w"><span>Book</span></span> <span class="w"><span>a</span></span> <span class="w"><span>repair</span></span><br><span class="w"><span>or</span></span> <span class="w"><span>ask</span></span> <span class="w"><span>a</span></span> <span class="w"><span>question.</span></span></h2>
       <div class="contact-side rv" style="--d:.16s">
         <a class="phone" href="tel:+15804823239">(580) 482-3239</a>
         <div class="cta">
@@ -232,12 +242,13 @@
     </div>
   </div>
 </section>
+</div>
 </main>
 
 <footer class="footer">
   <div class="wrap foot-in">
     <div class="foot-brand">
-      <a class="brand" href="#top"><span class="mark" aria-hidden="true">S</span><span class="brand-t">Smiley's <b>Auto</b></span></a>
+      <a class="brand" href="#top"><svg class="mark" viewBox="0 0 34 34" width="34" height="34" aria-hidden="true" focusable="false"><rect width="34" height="34" rx="5" fill="#c4161f"/><path d="M23.2 11c-1.4-1.7-3.4-2.5-5.8-2.5-3.1 0-5.1 1.6-5.1 3.9 0 5.7 10.6 3 10.6 9.1 0 2.5-2.3 4.2-5.7 4.2-2.6 0-4.7-.9-6.2-2.7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="brand-t">Smiley's <b>Auto</b></span></a>
       <p>1921 N Main St<br>Altus, OK 73521<br><a href="tel:+15804823239">(580) 482-3239</a></p>
       <p class="foot-links"><a href="https://smileysservicecenter.com/" target="_blank" rel="noopener">Official site &#8599;</a><a href="https://smileysservicecenter.com/appointments/" target="_blank" rel="noopener">Request an appointment &#8599;</a></p>
     </div>
@@ -252,6 +263,8 @@
   <a class="btn btn-line btn-sm" href="https://www.google.com/maps/dir/?api=1&destination=1921+N+Main+St,+Altus,+OK+73521" target="_blank" rel="noopener">Directions</a>
 </div>
 
-<script src="main.js?v=20261104b" defer></script>
+<script src="js/gsap.v4.min.js" defer></script>
+<script src="js/ScrollTrigger.v4.min.js" defer></script>
+<script src="js/site.v4.js" defer></script>
 </body>
 </html>
